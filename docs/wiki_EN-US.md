@@ -546,7 +546,7 @@ How to make a port forwarding ? (Only in French)
 - [Open the ports of your box/router easily](https://www.youtube.com/watch?v=qp7Jgj0FSnk&t=132s&ab_channel=Nathol)
 ___
 If you like this project and want to help us develop it, you can make a donation on [Paypal](
-https://www.paypal.me/luuxiss)
+https://www.paypal.me/danielzr21)
 
 If you have any questions, problems or suggestions please feel free to join our discord:
 

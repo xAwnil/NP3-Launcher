@@ -546,7 +546,7 @@ Comment Faire un Port forwarding ?
 - [Ouvrir les ports de sa box/routeur facilement](https://www.youtube.com/watch?v=qp7Jgj0FSnk&t=132s&ab_channel=Nathol)
 ___
 Si vous aimez ce projet et que vous voulez aider à le développer, vous pouvez nous faire un don sur [Paypal](
-https://www.paypal.me/luuxiss )
+https://www.paypal.me/danielzr21 )
 
 Si vous avez des questions, un problème ou des suggestions n'hésitez pas à rejoindre notre discord :
 

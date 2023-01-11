@@ -18,7 +18,7 @@ import Settings from './panels/settings.js';
 class Launcher {
     async init() {
         this.initLog();
-        console.log("Initializing Launcher...");
+        console.log("Inicializando Launcher...");
         if (process.platform == "win32") this.initFrame();
         this.config = await config.GetConfig().then(res => res);
         this.news = await config.GetNews().then(res => res);
@@ -37,7 +37,7 @@ class Launcher {
     }
 
     initFrame() {
-        console.log("Initializing Frame...")
+        console.log("Marco de inicialización...")
         document.querySelector(".frame").classList.toggle("hide")
         document.querySelector(".dragbar").classList.toggle("hide")
 
@@ -82,7 +82,7 @@ class Launcher {
             for (let account of accounts) {
                 account = account.value;
                 if (account.meta.type === 'Xbox') {
-                    console.log(`Initializing Xbox account ${account.name}...`);
+                    console.log(`Inicializando la cuenta de Xbox ${account.name}...`);
                     let refresh = await new Microsoft(this.config.client_id).refresh(account);
                     let refresh_accounts;
                     let refresh_profile;
@@ -121,7 +121,7 @@ class Launcher {
                     if (account.uuid === selectaccount) accountSelect(refresh.uuid)
                 } else if (account.meta.type === 'Mojang') {
                     if (account.meta.offline) {
-                    console.log(`Initializing Crack account ${account.name}...`);
+                    console.log(`Inicializando cuenta Crack ${account.name}...`);
                         addAccount(account);
                         if (account.uuid === selectaccount) accountSelect(account.uuid)
                         continue;
@@ -131,12 +131,12 @@ class Launcher {
                     if (!validate) {
                         this.database.delete(account.uuid, 'accounts');
                         if (account.uuid === selectaccount) this.database.update({ uuid: "1234" }, 'accounts-selected')
-                        console.error(`[Account] ${account.uuid}: Token is invalid.`);
+                        console.error(`[Account] ${account.uuid}: El token no es válido.`);
                         continue;
                     }
 
                     let refresh = await Mojang.refresh(account);
-                    console.log(`Initializing Mojang account ${account.name}...`);
+                    console.log(`Inicializando la cuenta de Mojang ${account.name}...`);
                     let refresh_accounts;
 
                     if (refresh.error) {

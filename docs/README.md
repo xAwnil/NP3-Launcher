@@ -102,7 +102,7 @@ Si vous téléchargez à partir des Releases, sélectionnez le programme d'insta
 
 <br>
 
-Si vous aimez ce projet et que vous voulez aider à le développer, vous pouvez nous faire un don sur [Paypal](https://www.paypal.me/luuxiss).
+Si vous aimez ce projet et que vous voulez aider à le développer, vous pouvez nous faire un don sur [Paypal](https://www.paypal.me/danielzr21).
 
 Si vous avez des questions, un problème ou des suggestions n'hésitez pas à rejoindre notre discord :
 

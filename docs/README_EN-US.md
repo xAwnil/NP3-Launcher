@@ -102,7 +102,7 @@ If you are downloading from Releases, select the installer for your system.
 
 <br>
 
-If you like this project and want to help develop it, you can donate to us on [Paypal](https://www.paypal.me/luuxiss).
+If you like this project and want to help develop it, you can donate to us on [Paypal](https://www.paypal.me/danielzr21).
 
 If you have any questions, problems or suggestions, feel free to join our discord:
 

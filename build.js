@@ -7,7 +7,7 @@ builder.build({
         generateUpdatesFilesForAllChannels: true,
         appId: preductname,
         productName: preductname,
-        artifactName: "${productName}-${os}-${arch}.${ext}",
+        artifactName: "${productName}-setup-${version}.${ext}",
         files: ["src/**/*", "package.json", "LICENSE.md"],
         directories: { "output": "dist" },
         compression: 'maximum',
